@@ -134,9 +134,9 @@ text-color:black;
   box-shadow: auto;
 }
 
-.Contatos{
+.Contatos div{
   order: 1;
-
+  margin-left: 10px;
 
 }
 .Terminos{
