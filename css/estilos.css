@@ -114,44 +114,50 @@ display: flex;
    border-bottom:2px solid black;
 }
 
-footer{
+footer {
 text-align: left;
 text-color:black;
+margin:0 auto;
+width: 100%;
+
+
 
 
 }
+
 .PiedePagina {
   background-color: #C6d5c5;
   margin: 0 auto;
   border-radius: 0px 0px 10px 10px;
   display: flex;
+  flex-flow: wrap-reverse;
 
 }
 .redes_sociales img {
-  width: 5%;
-  height:5%;
+  width: 20px;
+  height:20px;
   border:1;
   box-shadow: auto;
 }
 
-.Contatos div{
-  order: 1;
-  margin-left: 10px;
+.Contatos {
+    margin: 0 auto;
+
 
 }
 .Terminos{
   margin: 0 auto;
-  order:2 ;
 
 
 }
 .Redes{
   margin: 0 auto;
-  order:3 ;
+
+
 
 }
 .Derechos{
   margin: 0 auto;
-  order:4 ;
+
 
 }
