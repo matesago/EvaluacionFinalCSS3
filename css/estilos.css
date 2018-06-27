@@ -78,6 +78,7 @@ display: flex;
     margin: 0 auto;
     display: flex;
 
+
   }
   .ImgSecundaria div{
     width: 50%;
@@ -130,7 +131,7 @@ width: 100%;
   margin: 0 auto;
   border-radius: 0px 0px 10px 10px;
   display: flex;
-  flex-flow: wrap-reverse;
+
 
 }
 .redes_sociales img {
@@ -142,22 +143,47 @@ width: 100%;
 
 .Contatos {
     margin: 0 auto;
-
-
 }
 .Terminos{
   margin: 0 auto;
-
 
 }
 .Redes{
   margin: 0 auto;
 
-
-
 }
 .Derechos{
   margin: 0 auto;
 
+}
+/*.galeria div [class*="bloque"]{
+  width: 100%
+  flex: 1 2 40%;
+  display:flex;
+  flex-wrap:nowrap;
 
+}*/
+.Retrato_1  {
+  order: 1;
+  flex-grow: 1;
+}
+.Retrato_2  {
+  order: 2;
+  flex-grow: 1;
+}
+.Retrato_3{
+  order: 3;
+  flex-grow: 1;
+}
+.Retrato_4{
+  order: 4;
+  flex-grow: 2;
+}
+.Retrato_5{
+  order: 5;
+  flex-grow: 2;
+}
+.Retrato_6{
+  order: 6;
+  flex-grow: 2;
 }
