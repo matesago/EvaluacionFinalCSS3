@@ -156,13 +156,27 @@ width: 100%;
   margin: 0 auto;
 
 }
-/*.galeria div [class*="bloque"]{
-  width: 100%
+.galeria{
+  background-color:  #d5c75f ;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+  vertical-align:middle;
+
+}
+.galeria div img{
+  width:70%;
+  height:70%;
+
+}
+.galeria div [class*="Retrato_"]{
   flex: 1 2 40%;
   display:flex;
-  flex-wrap:nowrap;
 
-}*/
+
+}
 .Retrato_1  {
   order: 1;
   flex-grow: 1;
