@@ -167,37 +167,39 @@ width: 100%;
 
 }
 .galeria div img{
-  width:70%;
-  height:70%;
+  width: 50%;
+  height:60%;
 
 }
-.galeria div [class*="Retrato_"]{
+ div [class*="Retrato_"]{
+  min-height: 200px
   flex: 1 2 40%;
-  display:flex;
+
 
 
 }
-.Retrato_1  {
+#Retrato_1  {
+  margin-top: 20px;
   order: 1;
-  flex-grow: 1;
+  inline-flex: 1;
 }
-.Retrato_2  {
+#Retrato_2  {
   order: 2;
-  flex-grow: 1;
+inline-flex: 1;
 }
-.Retrato_3{
+#Retrato_3{
   order: 3;
-  flex-grow: 1;
+  inline-flex: 1;
 }
-.Retrato_4{
+#Retrato_4{
   order: 4;
   flex-grow: 2;
 }
-.Retrato_5{
+#Retrato_5{
   order: 5;
   flex-grow: 2;
 }
-.Retrato_6{
+#Retrato_6{
   order: 6;
   flex-grow: 2;
 }
