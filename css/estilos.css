@@ -121,9 +121,6 @@ text-color:black;
 margin:0 auto;
 width: 100%;
 
-
-
-
 }
 
 .PiedePagina {
@@ -156,50 +153,40 @@ width: 100%;
   margin: 0 auto;
 
 }
-.galeria{
-  background-color:  #d5c75f ;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: wrap;
-  text-align: center;
-  vertical-align:middle;
-
-}
+.galeria { background-color:  #d5c75f ;}
 .galeria div img{
-  width: 50%;
-  height:60%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 250px;
+  height: 250px;
+  border: 1px;
+  box-shadow: 2px 4px;
+  align-content: center;
+}
 
-}
- div [class*="Retrato_"]{
-  min-height: 200px
-  flex: 1 2 40%;
 
 
 
+.galeria_1{ display: flex; flex-direction: row; justify-content: space-around;}
+
+.Retrato_1 img{
+  filter: blur(10px);
 }
-#Retrato_1  {
-  margin-top: 20px;
-  order: 1;
-  inline-flex: 1;
+.Retrato_2 img{
+  filter: grayscale(100%);
 }
-#Retrato_2  {
-  order: 2;
-inline-flex: 1;
+.Retrato_3 img{
+  filter: sepia(90%);
 }
-#Retrato_3{
-  order: 3;
-  inline-flex: 1;
+
+.galeria_2{ display: flex; flex-direction: row; justify-content: space-around;}
+
+.Retrato_4 img{
+  filter: grayscale(100%);
 }
-#Retrato_4{
-  order: 4;
-  flex-grow: 2;
+.Retrato_5 img{
+  filter: (100%);
 }
-#Retrato_5{
-  order: 5;
-  flex-grow: 2;
-}
-#Retrato_6{
-  order: 6;
-  flex-grow: 2;
+.Retrato_6 img{
+  filter:grayscale(100%);
 }
