@@ -9,10 +9,32 @@ body{
   margin-top: 15px;
 
 }
-@media  (max-width: 900px){
-  .contenido{ width: 100%;}
-   header{ width: 100%;}
-   footer{ width: 100%;}
+@media screen and (max-width: 959px){
+
+     body{ background:#ff8000; }
+
+     header{
+      width: 100%;
+
+          }
+     footer{width: : 100%;display:block;}
+     .Submenu navbar{ width: 100%;}
+     .contenido{ width: : 100%; }
+     .contenido div{
+       display:block;
+       text-align: left;
+       vertical-align: middle;
+       width: 100%;
+
+     }
+     .ImgSecundaria div{
+       display:block;
+       text-align: center;
+       vertical-align: middle;
+       width: 100%;}
+     .PiedePagina div{width: 100%; display: block;}
+
+
 
 
 }
@@ -26,6 +48,10 @@ text-shadow: 2px 2px #02010a;
 border-radius: 10px 10px 0px 0px;
 margin: 0 auto;
 display: flex;
+text-align: center;
+vertical-align: middle;
+
+
 
 }
 
@@ -41,8 +67,11 @@ display: flex;
   order: 1;
 
 
+
+
 }
 .Menu{
+  width: 80%;
   order: 2;
   margin-left: inherit;
   margin-top: 30px;
@@ -133,11 +162,11 @@ display: flex;
 }
 
 footer {
-width: 80%;
-text-align: left;
-text-color:black;
-margin:0 auto;
-width: 100%;
+  width: 80%;
+  text-align: center;
+  text-color:black;
+  margin:0 auto;
+  width: 100%;
 
 }
 
@@ -151,6 +180,7 @@ width: 100%;
 
 }
 .redes_sociales img {
+  width:80%;
   width: 20px;
   height:20px;
   border:1;
@@ -158,17 +188,21 @@ width: 100%;
 }
 
 .Contatos {
+   width:80%;
     margin: 0 auto;
 }
 .Terminos{
+  width:80%;
   margin: 0 auto;
 
 }
 .Redes{
+  width:80%;
   margin: 0 auto;
 
 }
 .Derechos{
+  width:80%;
   margin: 0 auto;
 
 }
