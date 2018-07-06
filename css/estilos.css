@@ -9,13 +9,17 @@ body{
   margin-top: 15px;
 
 }
-@media (min-width:900px){
+@media  (max-width: 900px){
+  .contenido{ width: 100%;}
+   header{ width: 100%;}
+   footer{ width: 100%;}
 
 
 }
 /*Cabecera Inicial */
 header{
-
+width: 80%;
+max-width: 1000px;
 background-color: #5b7989;
 color: white;
 text-shadow: 2px 2px #02010a;
@@ -25,13 +29,13 @@ display: flex;
 
 }
 
+
 .contenido{
-  width: 900px;
+  width: 80%;
+  max-width: 1000px;
   margin: 0 auto;
-
-
-
 }
+
 .Titulo{
   margin-left: 20px;
   order: 1;
@@ -55,6 +59,7 @@ display: flex;
   /*Cabecera Final*/
 
   .ImgCentral{
+    width:80%;
     margin: 0 auto;
     background-color:#82c3a6;
     text-align: center;
@@ -63,7 +68,7 @@ display: flex;
 
   }
   .ImgCentral img{
-    width:70%;
+    width:80%;
     margin-top:15px;
     margin-bottom: 15px;
 
@@ -82,6 +87,7 @@ display: flex;
 
   }
   .ImgSecundaria {
+    width: 80%;
     background-color:  #d5c75f ;
     margin: 0 auto;
     display: flex;
@@ -106,10 +112,12 @@ display: flex;
   box-shadow: 2px 4px;
 }
 .ImgSecundaria img {
+  width: 80%;
   border: 1px ;
   box-shadow: 2px 4px;
 }
 #Paisajes img:hover{
+
   transform: rotateZ(10deg);
   box-shadow: 2px 2px 5px #82c3a6;
   border-right:2px solid black;
@@ -117,6 +125,7 @@ display: flex;
 
 }
 #Retrato img:hover{
+
   transform: translate(20px,-5px);
    box-shadow: 2px 2px 5px #82c3a6;
    border-right:2px solid black;
@@ -124,6 +133,7 @@ display: flex;
 }
 
 footer {
+width: 80%;
 text-align: left;
 text-color:black;
 margin:0 auto;
@@ -132,6 +142,7 @@ width: 100%;
 }
 
 .PiedePagina {
+  width:80%;
   background-color: #C6d5c5;
   margin: 0 auto;
   border-radius: 0px 0px 10px 10px;
