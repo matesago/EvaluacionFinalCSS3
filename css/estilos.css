@@ -11,9 +11,6 @@
         }
       @media screen and (max-width: 900px){
 
-            body{
-            background:#ff8000;
-            }
 
             header{
             width: 100%;
@@ -33,16 +30,29 @@
               width: 100%;
              }
              .contenido div{
+               width: 100%;
               flex-direction: column;
-              text-align: left;
+              text-align: center;
               vertical-align: middle;
-              width: 100%;
+
+             }
+             .ImgCentral div{
+               flex-direction: column;
+               text-align: center;
+               vertical-align: middle;
+               width: 100%;
+             }
+             .ImgCentral img{
+               width: 50%;
              }
              .ImgSecundaria div{
                flex-direction: column;
                text-align: center;
                vertical-align: middle;
                width: 100%;
+             }
+             .ImgSecundaria{
+               width: 50%;
              }
              .PiedePagina div{
                width: 100%;
@@ -55,6 +65,8 @@
                 vertical-align: middle;
                 width: 100%;
               }
+
+
 
         }
       /*Cabecera Inicial */
@@ -123,6 +135,7 @@
           vertical-align: middle;
 
 
+
         }
         .ImgCentral img{
           width:80%;
@@ -154,7 +167,7 @@
           width: 50%;
           margin-bottom: 15px;
             width: 100%;
-            flex-direction: column; 
+            flex-direction: column;
 
       }
         .ClaFiguras{
